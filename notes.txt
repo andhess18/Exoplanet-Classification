@@ -1,0 +1,14 @@
+1. One-Hot Encoding Categorical Columns:
+
+Comment: #one-hot encode categorical columns (line 23)
+
+Explanation: One-hot encoding is a method used to convert categorical data into a format that can be provided to machine learning algorithms to do a better job in prediction.
+
+Example: Suppose you have a categorical column "Color" with values "Red", "Green", and "Blue". One-hot encoding will convert this single column into three columns (one for each possible value):
+
+2. Standardizing Features:
+
+Comment: #standardize features (line 26)
+
+Explanation: Standardization is the process of scaling the features such that they have a mean of 0 and a standard deviation of 1. This is necessary because different features might have different scales, which can affect the performance of certain algorithms, especially those that rely on distances (like k-NN) or optimization methods (like gradient from neural networks)
+
